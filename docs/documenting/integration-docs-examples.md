@@ -201,7 +201,8 @@ To use this condition in an automation:
 2. Open an existing automation, or select **Create automation** > **Create new automation**.
 3. In the **And if** section, select **Add condition**.
 4. From the search box, search for and select **Light: Light is on**.
-5. Under **Targets**, select the light entity, an area, a floor, or a label.
+5. Select what you want to check. Under **By target** (see [Targets](#targets)), pick the area your ... is in (like your living room or bedroom).
+   You can also select a floor, a device, a specific entity, or a label.
 6. Under **Condition passes if** (see [Behavior](#behavior-with-multiple-targets)), pick **Any** or **All**.
 7. Select **Save**.
 
@@ -327,7 +328,7 @@ To turn a light on from an automation or a script:
 3. If you're setting up a new automation, add a trigger in the **When** section. Scripts don't need a trigger. They run when something else calls them.
 4. In the **Then do** section, select **Add action**.
 5. From the search box, search for and select **Light: Turn on**.
-6. Under **Targets**, choose...
+6. Select what you want to control. Under **By target** (see [Targets](#targets)), pick the area your ... is in (like your hallway or entryway). You can also select a floor, a device, a specific entity, or a label.
 7. Select **Save**.
 
 ### Options in the UI
